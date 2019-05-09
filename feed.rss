@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:spotify="https://www.spotify.com/us/ns/rss/" version="2.0">
+<channel>
+<link>https://www.YourSite.com/rss</link>
+<language>en</language>
+<copyright>&#xA9;2019</copyright>
+<webMaster>your@email.com (Jonathan Morales)</webMaster>
+<managingEditor>your@email.com (Jonathan Morales)</managingEditor>
+<image>
+   <url>https://www.YourSite.com/ImageSize300X300.jpg</url>
+   <title>Title of your logo</title>
+   <link>https://www.YourSite.com</link>
+</image>
+<itunes:owner>
+   <itunes:name>Your Name</itunes:name>
+   <itunes:email>your@email.com</itunes:email>
+</itunes:owner>
+<itunes:category text="Education">
+   <itunes:category text="Higher Education" />
+</itunes:category>
+<itunes:keywords>separate, by, comma, and, space</itunes:keywords>
+<itunes:explicit>yes</itunes:explicit>
+<itunes:image href="http://www.YourSite.com/ImageSize300X300.jpg" />
+<atom:link href="https://www.YourSite.com/feed.xml" rel="self" type="application/rss+xml" />
+<title>Verbose title of the podcast</title>
+<itunes:author>College, school, or department owning the podcast</itunes:author>
+<description>Verbose description of the podcast.</description>
+<itunes:summary>Duplicate of above verbose description.</itunes:summary>
+<itunes:subtitle>Short description of the podcast - 255 character max.</itunes:subtitle>
+<itunes:complete>no</itunes:complete>
+
+<!--REPEAT THIS BLOCK FOR EACH EPISODE-->
+<item>
+   <title>Verbose title of the episode</title>
+   <description>Verbose description of the episode.</description>
+   <itunes:summary>Duplicate of above verbose description.</itunes:summary>
+   <itunes:subtitle>Short description of the episode - 255 character max.</itunes:subtitle>
+   <enclosure url="https://www.YourSite.com/FILE.MP3" type="audio/mpeg" length="1" />
+   <guid isPermaLink="true">https://www.YourSite.com/FILE.MP3</guid>
+   <itunes:duration>H:MM:SS</itunes:duration>
+   <pubDate>Fri, 05 Oct 2018 09:00:00 GMT</pubDate>
+</item>
+<!--END REPEAT--> 
+
+</channel>
+</rss>
