@@ -7,7 +7,7 @@
 <webMaster>themindwalkerspodcast@gmail.com (Jonathan Morales)</webMaster>
 <managingEditor>themindwalkerspodcast@gmail.com (Jonathan Morales)</managingEditor>
 <image>
-   <url>https://themindwalkers.github.io/HowToNotGiveA/podcastCover.jpg</url>
+   <url>https://themindwalkers.github.io/HowToNotGiveA/podcastCover.png</url>
    <title>Podcast Cover Image</title>
    <link>https://themindwalkers.github.io/HowToNotGiveA</link>
 </image>
@@ -35,8 +35,8 @@
    <description>Verbose description of the episode.</description>
    <itunes:summary>Duplicate of above verbose description.</itunes:summary>
    <itunes:subtitle>Short description of the episode - 255 character max.</itunes:subtitle>
-   <enclosure url="https://themindwalkers.github.io/HowToNotGiveA/podcasts/episode1.mp3" type="audio/mpeg" length="1" />
-   <guid isPermaLink="true">https://themindwalkers.github.io/HowToNotGiveA/podcasts/episode1.mp3</guid>
+   <enclosure url="https://s3.amazonaws.com/mindwalkers/HowToNotGiveA/episode1.mp3" type="audio/mpeg" length="1" />
+   <guid isPermaLink="true">https://s3.amazonaws.com/mindwalkers/HowToNotGiveA/episode1.mp3</guid>
    <itunes:duration>H:MM:SS</itunes:duration>
    <pubDate>Thu, 09 May 2019 09:00:00 GMT</pubDate>
 </item>
